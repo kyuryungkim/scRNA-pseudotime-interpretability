@@ -2,7 +2,7 @@
 
 **Interpreting what pseudotime can and cannot tell us**
 
-This repository contains the public code and poster-facing results for an e-poster project on static scRNA-seq pseudotime interpretation. The analysis uses a public known-day dopaminergic differentiation time-course as a calibration case, not as direct evidence of Parkinson's disease progression.
+This repository presents a reproducible analysis project on the interpretation of pseudotime derived from static scRNA-seq snapshots. Developed from an e-poster study, it uses a public known-day dopaminergic differentiation time-course as a calibration case, not as direct evidence of Parkinson's disease progression.
 
 ## Abstract
 
@@ -198,4 +198,4 @@ Expected R packages include Seurat, SingleCellExperiment, slingshot, Matrix, ggp
 
 ## Repository Scope
 
-This branch is poster-focused. It is intended to share enough code and result files to understand and reproduce the e-poster analysis without exposing raw data, intermediate RDS objects, conference template files, or internal drafting notes.
+This repository is focused on the pseudotime interpretation question developed in the e-poster study. It shares the code, stable figures, summary tables, and interpretation boundaries needed to understand and reproduce the analysis, while excluding raw data, intermediate RDS objects, conference template files, and internal drafting notes.
